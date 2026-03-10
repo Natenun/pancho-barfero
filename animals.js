@@ -8,9 +8,9 @@ const animalsData = {
       status: "Disponible",
       category: "busca hogar",
       gallery: [
-        "https://images.unsplash.com/photo-1548199973-03cce0bbc87b?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1517849845537-4d257902454a?auto=format&fit=crop&w=900&q=80",
-        "https://images.unsplash.com/photo-1587300003388-59208cc962cb?auto=format&fit=crop&w=900&q=80"
+        "img/animalitos/nawi-1.png",
+        "img/animalitos/nawi-2.png",
+        "img/animalitos/nawi-3.png"
       ],
       shortStory: "Llegó con bajo peso y necesitó apoyo para alimento.",
       story: "Ñawi apareció débil y con signos de descuido. Fue recibido y comenzó su proceso de recuperación.",
