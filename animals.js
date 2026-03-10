@@ -7,6 +7,8 @@ const animalsData = {
       birthday: "2025-06-10",
       status: "Disponible",
       category: "busca hogar",
+      beforeImg: "img/animalitos/nawi-antes.png",
+      afterImg: "img/animalitos/nawi-ahora.png",
       gallery: [
         "img/animalitos/Ñawi-1.png",
         "img/animalitos/Ñawi-2.png",
