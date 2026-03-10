@@ -1,26 +1,33 @@
-
 function getAnimalBySlug(slug){
   return allAnimals.find(a => a.slug === slug);
 }
 
 function renderGallery(images){
   return `
-  <div class="animal-gallery">
-    <img id="main-img" src="${images[0]}" class="main-img"/>
-    <div class="thumbs">
-      ${images.map(img => `<img src="${img}" class="thumb"/>`).join("")}
+    <div class="animal-gallery">
+      <img id="main-img" src="${images[0]}" class="main-img" />
+      <div class="thumbs">
+        ${images.map((img, i) => `
+          <img
+            src="${img}"
+            class="thumb ${i === 0 ? "active" : ""}"
+            data-full="${img}"
+            alt="Foto ${i + 1}"
+          />
+        `).join("")}
+      </div>
     </div>
-  </div>`
+  `;
 }
 
 function renderSection(title, text){
   if(!text) return "";
   return `
-  <section class="story-section">
-    <h3>${title}</h3>
-    <p>${text}</p>
-  </section>
-  `
+    <section class="story-section">
+      <h3>${title}</h3>
+      <p>${text}</p>
+    </section>
+  `;
 }
 
 function render(){
@@ -52,9 +59,13 @@ function render(){
   `;
 
   const main = document.getElementById("main-img");
-  document.querySelectorAll(".thumb").forEach(t=>{
-    t.addEventListener("click",()=>{
-      main.src = t.src;
+  const thumbs = document.querySelectorAll(".thumb");
+
+  thumbs.forEach(t => {
+    t.addEventListener("click", () => {
+      main.src = t.dataset.full;
+      thumbs.forEach(x => x.classList.remove("active"));
+      t.classList.add("active");
     });
   });
 }
