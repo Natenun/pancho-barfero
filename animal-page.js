@@ -1,64 +1,62 @@
-function getAnimalBySlug(slug) {
-  return allAnimals.find(animal => animal.slug === slug);
+
+function getAnimalBySlug(slug){
+  return allAnimals.find(a => a.slug === slug);
 }
 
-function getTagClass(status) {
-  if (status === "Disponible") return "tag tag-green";
-  if (status === "En tratamiento") return "tag tag-amber";
-  if (status === "Adoptado" || status === "Historia fundadora") return "tag tag-sky";
-  return "tag tag-neutral";
+function renderGallery(images){
+  return `
+  <div class="animal-gallery">
+    <img id="main-img" src="${images[0]}" class="main-img"/>
+    <div class="thumbs">
+      ${images.map(img => `<img src="${img}" class="thumb"/>`).join("")}
+    </div>
+  </div>`
 }
 
-function renderAnimalPage() {
-  const params = new URLSearchParams(window.location.search);
+function renderSection(title, text){
+  if(!text) return "";
+  return `
+  <section class="story-section">
+    <h3>${title}</h3>
+    <p>${text}</p>
+  </section>
+  `
+}
+
+function render(){
+  const params = new URLSearchParams(location.search);
   const slug = params.get("slug");
-  const container = document.getElementById("animal-content");
   const animal = getAnimalBySlug(slug);
+  const container = document.getElementById("animal");
 
-  if (!container) return;
-
-  if (!animal) {
-    container.innerHTML = `
-      <div class="card">
-        <h2>No encontré esa historia</h2>
-        <p>Revisa el enlace o vuelve a la página principal.</p>
-        <a href="index.html" class="btn btn-primary" style="margin-top:16px;">Volver al inicio</a>
-      </div>
-    `;
+  if(!animal){
+    container.innerHTML = "<p>Animal no encontrado</p>";
     return;
   }
 
   container.innerHTML = `
-    <article class="animal-detail-card">
-      <img src="${animal.image}" alt="${animal.name}" class="animal-detail-image" />
-      <div class="animal-detail-body">
-        <div class="pet-top">
-          <div>
-            <h1>${animal.name}</h1>
-            <p>${getAgeText(animal.birthday)}</p>
-          </div>
-          <span class="${getTagClass(animal.status)}">${animal.status}</span>
-        </div>
+    ${renderGallery(animal.gallery)}
+    <h1 class="animal-name">${animal.name}</h1>
+    <p class="animal-age">${getAgeText(animal.birthday)} • ${animal.status}</p>
 
-        <p class="animal-category">${animal.category}</p>
+    ${renderSection("Historia", animal.story)}
+    ${renderSection("Antes", animal.before)}
+    ${renderSection("Diagnóstico / situación", animal.diagnosis)}
+    ${renderSection("Plan de cuidado", animal.carePlan)}
+    ${renderSection("Cómo va hoy", animal.today)}
+    ${renderSection("Cómo ayudar", animal.helpMessage)}
 
-        <div class="animal-story-box">
-          <h2>Su historia</h2>
-          <p>${animal.story}</p>
-        </div>
-
-        <div class="animal-story-box">
-          <h2>Cómo puedes ayudar</h2>
-          <p>Puedes escribir directamente a Patricia para apoyar, adoptar, compartir o preguntar más sobre ${animal.name}.</p>
-        </div>
-
-        <div class="pet-actions stacked-actions">
-          <a class="btn btn-primary" href="https://wa.me/5218135049027?text=${encodeURIComponent(animal.whatsappText)}" target="_blank" rel="noopener noreferrer">Escribir por WhatsApp</a>
-          <a class="btn btn-dark" href="index.html">Volver a la página principal</a>
-        </div>
-      </div>
-    </article>
+    <a class="help-btn" href="https://wa.me/?text=${encodeURIComponent(animal.whatsappText)}" target="_blank">
+      Ayudar a ${animal.name}
+    </a>
   `;
+
+  const main = document.getElementById("main-img");
+  document.querySelectorAll(".thumb").forEach(t=>{
+    t.addEventListener("click",()=>{
+      main.src = t.src;
+    });
+  });
 }
 
-document.addEventListener("DOMContentLoaded", renderAnimalPage);
+document.addEventListener("DOMContentLoaded", render);
