@@ -3,6 +3,8 @@ function getAnimalBySlug(slug){
 }
 
 function renderGallery(images){
+  if(!images || !images.length) return "";
+
   return `
     <div class="animal-gallery">
       <img id="main-img" src="${images[0]}" class="main-img" />
@@ -20,6 +22,33 @@ function renderGallery(images){
   `;
 }
 
+function renderBeforeAfter(beforeImg, afterImg) {
+  if(!beforeImg || !afterImg) return "";
+
+  return `
+    <section class="before-after">
+      <h3>Antes y Después</h3>
+
+      <div class="ba-container">
+        <img src="${afterImg}" class="ba-after" alt="Después">
+
+        <div class="ba-before-wrapper" id="ba-before-wrapper">
+          <img src="${beforeImg}" class="ba-before" alt="Antes">
+        </div>
+
+        <input
+          type="range"
+          min="0"
+          max="100"
+          value="50"
+          class="ba-slider"
+          id="ba-slider"
+        >
+      </div>
+    </section>
+  `;
+}
+
 function renderSection(title, text){
   if(!text) return "";
   return `
@@ -28,6 +57,32 @@ function renderSection(title, text){
       <p>${text}</p>
     </section>
   `;
+}
+
+function bindGallery() {
+  const main = document.getElementById("main-img");
+  const thumbs = document.querySelectorAll(".thumb");
+
+  if(!main || !thumbs.length) return;
+
+  thumbs.forEach(t => {
+    t.addEventListener("click", () => {
+      main.src = t.dataset.full;
+      thumbs.forEach(x => x.classList.remove("active"));
+      t.classList.add("active");
+    });
+  });
+}
+
+function bindBeforeAfter() {
+  const slider = document.getElementById("ba-slider");
+  const wrapper = document.getElementById("ba-before-wrapper");
+
+  if(!slider || !wrapper) return;
+
+  slider.addEventListener("input", (e) => {
+    wrapper.style.width = e.target.value + "%";
+  });
 }
 
 function render(){
@@ -42,9 +97,13 @@ function render(){
   }
 
   container.innerHTML = `
+    <a href="index.html" class="back-btn">← Volver al inicio</a>
+
     ${renderGallery(animal.gallery)}
     <h1 class="animal-name">${animal.name}</h1>
     <p class="animal-age">${getAgeText(animal.birthday)} • ${animal.status}</p>
+
+    ${renderBeforeAfter(animal.beforeImg, animal.afterImg)}
 
     ${renderSection("Historia", animal.story)}
     ${renderSection("Antes", animal.before)}
@@ -58,16 +117,8 @@ function render(){
     </a>
   `;
 
-  const main = document.getElementById("main-img");
-  const thumbs = document.querySelectorAll(".thumb");
-
-  thumbs.forEach(t => {
-    t.addEventListener("click", () => {
-      main.src = t.dataset.full;
-      thumbs.forEach(x => x.classList.remove("active"));
-      t.classList.add("active");
-    });
-  });
+  bindGallery();
+  bindBeforeAfter();
 }
 
 document.addEventListener("DOMContentLoaded", render);
