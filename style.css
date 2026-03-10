@@ -527,3 +527,45 @@ a {
     overflow: hidden;
   }
 }
+.back-btn {
+  display: inline-block;
+  margin-bottom: 15px;
+  font-weight: 700;
+  color: #ff7a59;
+}
+
+.before-after {
+  margin-top: 24px;
+}
+
+.ba-container {
+  position: relative;
+  width: 100%;
+  overflow: hidden;
+  border-radius: 16px;
+}
+
+.ba-after {
+  width: 100%;
+  display: block;
+}
+
+.ba-before-wrapper {
+  position: absolute;
+  inset: 0;
+  width: 50%;
+  overflow: hidden;
+}
+
+.ba-before {
+  width: 100%;
+  display: block;
+}
+
+.ba-slider {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+}
