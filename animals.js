@@ -41,7 +41,7 @@ const animalsData = {
       carePlan: "",
       today: "",
       helpMessage: "",
-      whatsappText: ""
+      whatsappText: "Hola Paty, quiero ayudar a Panchote"
     }
   ],
 
@@ -66,7 +66,7 @@ const animalsData = {
       carePlan: "Su proceso llevó a Patricia a estudiar nutrición para pequeñas especies.",
       today: "Hoy Pancho está sano y su historia es el corazón del proyecto.",
       helpMessage: "Puedes ayudar a otros animalitos que hoy necesitan lo mismo que Pancho necesitó.",
-      whatsappText: "Hola Paty, quiero conocer más sobre Pancho"
+      whatsappText: "Hola Paty, quiero ayudar a Pancho"
     },
     {
       slug: "prit",
@@ -89,7 +89,7 @@ const animalsData = {
       carePlan: "Atención, alimento y seguimiento.",
       today: "Hoy está muy sana y forma parte de mi manada.",
       helpMessage: "Puedes ayudar compartiendo su historia o apoyando su cuidado.",
-      whatsappText: "Hola Paty, quiero conocer la historia de Prit"
+      whatsappText: "Hola Paty, quiero ayudar a Prit"
     },
     {
       slug: "nawi",
@@ -134,7 +134,52 @@ const animalsData = {
       today: "Hoy sigue en tratamiento y forma parte de la manada.",
       helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
       whatsappText: "Hola Paty, quiero ayudar a Zack"
+    },
+    {
+      slug: "sira",
+      name: "Sira",
+      birthday: "2024-10-01",
+      status: "En tratamiento",
+      category: "resguardo",
+      beforeImg: "img/animalitos/sira-antes.png",
+      afterImg: "img/animalitos/sira-ahora.png",
+      gallery: [
+        "img/animalitos/sira-1.png",
+        "img/animalitos/sira-2.png",
+        "img/animalitos/sira-3.png"
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: ".",
+      carePlan: ".",
+      today: ".",
+      helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+      whatsappText: "Hola Paty, quiero ayudar a Sira"
+    },
+    {
+      slug: "fraser",
+      name: "fraser",
+      birthday: "2024-10-01",
+      status: "En tratamiento",
+      category: "resguardo",
+      beforeImg: "img/animalitos/fraser-antes.png",
+      afterImg: "img/animalitos/fraser-ahora.png",
+      gallery: [
+        "img/animalitos/fraser-1.png",
+        "img/animalitos/fraser-2.png",
+        "img/animalitos/fraser-3.png"
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: ".",
+      carePlan: ".",
+      today: ".",
+      helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+      whatsappText: "Hola Paty, quiero ayudar a fraser"
     }
+    
     
   ],
 
