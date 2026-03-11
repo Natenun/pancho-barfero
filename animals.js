@@ -162,26 +162,25 @@ const animalsData = {
       whatsappText: "Hola Paty, quiero conocer más sobre lua"
     },
     {
-      slug: "pancho",
-      name: "Pancho",
+      slug: "panchote",
+      name: "Panchote",
       birthday: "2020-01-01",
-      status: "Historia fundadora",
+      status: "Adoptado",
       category: "En resguardo",
-      beforeImg: "img/animalitos/pancho-antes.png",
-      afterImg: "img/animalitos/pancho-ahora.png",
+      beforeImg: "img/animalitos/panchote-antes.png",
+      afterImg: "img/animalitos/panchote-ahora.png",
       gallery: [
-        "img/animalitos/pancho-1.png",
-        "img/animalitos/pancho-2.png",
-        "img/animalitos/pancho-3.png"
+        "img/animalitos/panchote-1.png",
+        "img/animalitos/panchote-2.png"
       ],
-      shortStory: "Pancho fue el inicio de todo.",
-      story: "Pancho apareció lastimado en el estacionamiento de Cross248. Su historia inspiró Pancho Barfero.",
-      before: "Llegó muy lastimado después de ser atacado por otros perros.",
-      diagnosis: "Necesitaba atención, alimentación y recuperación.",
-      carePlan: "Su proceso llevó a Patricia a estudiar nutrición para pequeñas especies.",
-      today: "Hoy Pancho está sano y su historia es el corazón del proyecto.",
-      helpMessage: "Puedes ayudar a otros animalitos que hoy necesitan lo mismo que Pancho necesitó.",
-      whatsappText: "Hola Paty, quiero conocer más sobre Pancho"
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: "",
+      carePlan: "",
+      today: "",
+      helpMessage: "",
+      whatsappText: ""
     }
   ]
 };
