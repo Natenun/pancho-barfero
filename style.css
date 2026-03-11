@@ -60,6 +60,9 @@ a {
   padding: 18px 18px 24px;
   color: white;
 }
+.hero-content p {
+  max-width: 34ch;
+}
 
 .eyebrow {
   display: inline-block;
