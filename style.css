@@ -632,3 +632,19 @@ a {
   cursor: ew-resize;
   z-index: 3;
 }
+.donate-btn{
+  display:block;
+  text-align:center;
+  margin-top:14px;
+  padding:14px;
+  border-radius:10px;
+  background:#e63946;
+  color:white;
+  font-weight:600;
+  text-decoration:none;
+  font-size:16px;
+}
+
+.donate-btn:hover{
+  background:#c92f3b;
+}
