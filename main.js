@@ -63,4 +63,24 @@ function renderAnimals() {
   }
 }
 
-document.addEventListener("DOMContentLoaded", renderAnimals);
+function renderStats() {
+  const adoption = animalsData.adoption.length;
+  const rescue = animalsData.rescue.length;
+  const adopted = animalsData.adopted.length;
+  const total = adoption + rescue + adopted;
+
+  const adoptionEl = document.getElementById("stat-adoption");
+  const rescueEl = document.getElementById("stat-rescue");
+  const adoptedEl = document.getElementById("stat-adopted");
+  const totalEl = document.getElementById("stat-total");
+
+  if (adoptionEl) adoptionEl.textContent = adoption;
+  if (rescueEl) rescueEl.textContent = rescue;
+  if (adoptedEl) adoptedEl.textContent = adopted;
+  if (totalEl) totalEl.textContent = total;
+}
+
+document.addEventListener("DOMContentLoaded", () => {
+  renderAnimals();
+  renderStats();
+});
