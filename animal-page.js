@@ -125,6 +125,9 @@ function render(){
     <a class="help-btn" href="https://wa.me/5218135049027?text=${encodeURIComponent(animal.whatsappText)}" target="_blank" rel="noopener noreferrer">
       Ayudar a ${animal.name}
     </a>
+    <a class="donate-btn" href="index.html#donar">
+  Donar para ayudar a ${animal.name}
+</a>
   `;
 
   bindGallery();
