@@ -124,11 +124,11 @@ const animalsData = {
       birthday: "2020-01-01",
       status: "Adoptado",
       category: "En resguardo",
-      beforeImg: "img/animalitos/bolt-antes.png",
-      afterImg: "img/animalitos/bolt-ahora.png",
+      beforeImg: "img/animalitos/bolt-antes.jpeg",
+      afterImg: "img/animalitos/bolt-ahora.jpeg",
       gallery: [
-        "img/animalitos/bolt-1.png",
-        "img/animalitos/bolt-2.png"
+        "img/animalitos/bolt-1.jpeg",
+        "img/animalitos/bolt-2.jpeg"
     
       ],
       shortStory: "",
@@ -146,11 +146,12 @@ const animalsData = {
       birthday: "2020-01-01",
       status: "Adoptado",
       category: "En resguardo",
-      beforeImg: "img/animalitos/lua-antes.png",
-      afterImg: "img/animalitos/lua-ahora.png",
+      beforeImg: "img/animalitos/lua-antes.jpeg",
+      afterImg: "img/animalitos/lua-ahora.jpeg",
       gallery: [
-        "img/animalitos/lua-1.png",
-        "img/animalitos/lua-2.png"        
+        "img/animalitos/lua-1.jpeg",
+        "img/animalitos/lua-2.jpeg"        ,
+        "img/animalitos/lua-3.jpeg"
       ],
       shortStory: "",
       story: "",
@@ -167,11 +168,11 @@ const animalsData = {
       birthday: "2020-01-01",
       status: "Adoptado",
       category: "En resguardo",
-      beforeImg: "img/animalitos/panchote-antes.png",
-      afterImg: "img/animalitos/panchote-ahora.png",
+      beforeImg: "img/animalitos/panchote-antes.jpeg",
+      afterImg: "img/animalitos/panchote-ahora.jpeg",
       gallery: [
-        "img/animalitos/panchote-1.png",
-        "img/animalitos/panchote-2.png"
+        "img/animalitos/panchote-1.jpeg",
+        "img/animalitos/panchote-2.jpeg"
       ],
       shortStory: "",
       story: "",
