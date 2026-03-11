@@ -67,12 +67,12 @@ Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza 
   birthday: "2024-03-11",
   status: "Disponible",
   category: "busca hogar",
-  beforeImg: "img/animalitos/pelu-antes.png",
-  afterImg: "img/animalitos/pelu-ahora.png",
+  beforeImg: "img/animalitos/pelu-antes.jpeg",
+  afterImg: "img/animalitos/pelu-ahora.jpeg",
   gallery: [
-    "img/animalitos/pelu-1.png",
-    "img/animalitos/pelu-2.png",
-    "img/animalitos/pelu-3.png"
+    "img/animalitos/pelu-1.jpeg",
+    "img/animalitos/pelu-2.jpeg",
+    "img/animalitos/pelu-3.jpeg"
   ],
 
   shortStory: "Pelu comenzó a visitarnos todos los días en el trabajo. Poco a poco se fue quedando cada vez más tiempo, hasta que un día llegó lastimado y decidió que ese lugar sería su refugio.",
@@ -126,26 +126,75 @@ Pelu es un perro noble, cariñoso y muy agradecido. Ahora está listo para encon
   whatsappText: "Hola Paty, quiero ayudar a Pelu"
 },
     {
-      slug: "panchote",
-      name: "Panchote",
-      birthday: "2020-01-01",
-      status: "Disponible",
-      category: "busca hogar",
-      beforeImg: "img/animalitos/panchote-antes.jpeg",
-      afterImg: "img/animalitos/panchote-ahora.jpeg",
-      gallery: [
-        "img/animalitos/panchote-1.jpeg",
-        "img/animalitos/panchote-2.jpeg"
-      ],
-      shortStory: "",
-      story: "",
-      before: "",
-      diagnosis: "",
-      carePlan: "",
-      today: "",
-      helpMessage: "",
-      whatsappText: "Hola Paty, quiero ayudar a Panchote"
-    }
+  slug: "panchote",
+  name: "Panchote",
+  birthday: "2024-06-10",
+  status: "Disponible",
+  category: "busca hogar",
+  beforeImg: "img/animalitos/panchote-antes.jpeg",
+  afterImg: "img/animalitos/panchote-ahora.jpeg",
+  gallery: [
+    "img/animalitos/panchote-1.jpeg",
+    "img/animalitos/panchote-2.jpeg",
+    "img/animalitos/panchote-3.jpeg"
+  ],
+
+  shortStory: "Panchote es un perro noble que pasó gran parte de su vida entre la calle y una casa donde no siempre podía entrar. Sobrevivió al moquillo, encontró un hogar por un tiempo, y hoy busca nuevamente una familia que pueda cuidarlo y darle una vida segura.",
+
+  story: `Panchote es un perro que durante mucho tiempo tuvo dueños, pero que pasaba gran parte del tiempo en la calle. Yo solía encontrarlo casi todos los días cuando caminaba hacia el trabajo. Siempre estaba por la zona, tranquilo, caminando o acostado cerca de su casa.
+
+Muchas veces lo veíamos afuera de su casa, hecho bolita en el suelo, con frío, esperando. En ese momento no teníamos cómo ayudarlo más allá de darle un poco de atención o vigilar que estuviera bien, porque todavía no teníamos un espacio para recibirlo.
+
+Tiempo después llegó al lugar donde trabajo una perrita llamada Lua. Llegó en muy malas condiciones: extremadamente delgada y con muchas dificultades para respirar. Apenas unos días más tarde Panchote llegó en una situación muy parecida.`,
+
+  before: `Poco después descubrimos que había un brote de moquillo en la zona. Decidimos hacerles estudios a Lua y a Panchote, y lamentablemente ambos resultaron positivos.
+
+El moquillo es una enfermedad muy contagiosa, por lo que decidimos resguardarlos no solo para tratarlos, sino también para evitar que contagiaran a más perros de la zona.`,
+
+  diagnosis: `Fueron días muy complicados. Panchote y Lua recibían tratamiento constante:
+
+<ul>
+<li>Nebulizaciones</li>
+<li>Medicamentos inyectados</li>
+<li>Tratamiento veterinario constante</li>
+<li>Dieta especial para fortalecer su cuerpo</li>
+</ul>
+
+Durante semanas estuvimos luchando junto con la doctora para que pudieran salir adelante.`,
+
+  carePlan: `
+<p>Después de un proceso largo y difícil, Panchote logró recuperarse completamente del moquillo y no presentó secuelas.</p>
+
+<p>Actualmente lo que Panchote necesita es:</p>
+
+<ul>
+<li>Un hogar estable y seguro</li>
+<li>Alimentación adecuada</li>
+<li>Seguimiento veterinario básico</li>
+<li>Mucho cariño y convivencia con su familia</li>
+</ul>
+`,
+
+  today: `Después de recuperarse, un señor mayor decidió adoptarlo. Durante aproximadamente un año Panchote recibió cariño, cuidados y estabilidad.
+
+Lamentablemente el señor enfermó y hoy su estado de salud es delicado. Las personas que ahora lo cuidan no siempre pueden hacerse cargo completamente del perro y en ocasiones Panchote vuelve a salir a la calle.
+
+Hace poco incluso fue atropellado, lo que volvió a encender las alarmas sobre su seguridad.
+
+Por esta razón estamos buscando un nuevo hogar para Panchote, donde pueda vivir con mayor cuidado y estabilidad.
+
+Panchote tiene aproximadamente dos años. Es un perro muy noble, tranquilo y cariñoso. A pesar de todo lo que ha vivido, mantiene un carácter equilibrado y muy amoroso.`,
+
+  helpMessage: `
+<ul>
+<li>Adoptándolo y dándole un hogar seguro</li>
+<li>Compartiendo su historia para que llegue a la familia correcta</li>
+<li>Apoyando con alimento o cuidados mientras encuentra hogar</li>
+</ul>
+`,
+
+  whatsappText: "Hola Paty, quiero ayudar a Panchote"
+}
   ],
 
   rescue: [     
