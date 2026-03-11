@@ -136,7 +136,14 @@ Pelu es un perro noble, cariñoso y muy agradecido. Ahora está listo para encon
   gallery: [
     "img/animalitos/panchote-1.jpeg",
     "img/animalitos/panchote-2.jpeg",
-    "img/animalitos/panchote-3.jpeg"
+    "img/animalitos/panchote-3.jpeg",
+    "img/animalitos/panchote-4.jpeg",
+    "img/animalitos/panchote-5.jpeg",
+    "img/animalitos/panchote-6.jpeg",
+    "img/animalitos/panchote-7.jpeg",
+    "img/animalitos/panchote-8.jpeg",
+    "img/animalitos/panchote-9.jpeg",
+    "img/animalitos/panchote-10.jpeg",
   ],
 
   shortStory: "Panchote es un perro noble que pasó gran parte de su vida entre la calle y una casa donde no siempre podía entrar. Sobrevivió al moquillo, encontró un hogar por un tiempo, y hoy busca nuevamente una familia que pueda cuidarlo y darle una vida segura.",
