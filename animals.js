@@ -21,6 +21,27 @@ const animalsData = {
       today: "Hoy esta en recuperacion de su accidente pero si puede viajar.",
       helpMessage: "Puedes ayudar con alimento, donación, compartiendo su historia o adoptandolo.",
       whatsappText: "Hola Paty, quiero ayudar a Pelu"
+    },
+    {
+      slug: "panchote",
+      name: "Panchote",
+      birthday: "2020-01-01",
+      status: "Adoptado",
+      category: "En resguardo",
+      beforeImg: "img/animalitos/panchote-antes.jpeg",
+      afterImg: "img/animalitos/panchote-ahora.jpeg",
+      gallery: [
+        "img/animalitos/panchote-1.jpeg",
+        "img/animalitos/panchote-2.jpeg"
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: "",
+      carePlan: "",
+      today: "",
+      helpMessage: "",
+      whatsappText: ""
     }
   ],
 
@@ -161,27 +182,6 @@ const animalsData = {
       today: "",
       helpMessage: "",
       whatsappText: "Hola Paty, quiero conocer más sobre lua"
-    },
-    {
-      slug: "panchote",
-      name: "Panchote",
-      birthday: "2020-01-01",
-      status: "Adoptado",
-      category: "En resguardo",
-      beforeImg: "img/animalitos/panchote-antes.jpeg",
-      afterImg: "img/animalitos/panchote-ahora.jpeg",
-      gallery: [
-        "img/animalitos/panchote-1.jpeg",
-        "img/animalitos/panchote-2.jpeg"
-      ],
-      shortStory: "",
-      story: "",
-      before: "",
-      diagnosis: "",
-      carePlan: "",
-      today: "",
-      helpMessage: "",
-      whatsappText: ""
     }
   ]
 };
