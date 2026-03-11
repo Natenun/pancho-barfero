@@ -42,7 +42,10 @@ const animalsData = {
       today: "",
       helpMessage: "",
       whatsappText: "Hola Paty, quiero ayudar a Panchote"
-    },
+    }
+  ],
+
+  rescue: [  
     {
       slug: "locki",
       name: "Locki",
@@ -72,10 +75,7 @@ Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza 
             Locki se ha convertido en un recordatorio de lo mucho que un animal puede luchar cuando alguien decide no rendirse con él.",
       helpMessage: " •	Donando para sus estudios y tratamientos 	•	Compartiendo su historia	•	Siguiendo su proceso de recuperación	•	Apoyando los lives que se hacen para recaudar fondos",
       whatsappText: "Hola Paty, quiero ayudar a Locki"
-    }
-  ],
-
-  rescue: [    
+    },
      {
       slug: "pancho",
       name: "Pancho",
