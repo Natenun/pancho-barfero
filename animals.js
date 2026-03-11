@@ -26,8 +26,8 @@ const animalsData = {
       slug: "panchote",
       name: "Panchote",
       birthday: "2020-01-01",
-      status: "Adoptado",
-      category: "En resguardo",
+      status: "Disponible",
+      category: "busca hogar",
       beforeImg: "img/animalitos/panchote-antes.jpeg",
       afterImg: "img/animalitos/panchote-ahora.jpeg",
       gallery: [
