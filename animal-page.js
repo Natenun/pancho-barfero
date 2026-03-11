@@ -29,12 +29,14 @@ function renderBeforeAfter(beforeImg, afterImg) {
     <section class="before-after">
       <h3>Antes y Después</h3>
 
-      <div class="ba-container">
+      <div class="ba-container" id="ba-container">
         <img src="${afterImg}" class="ba-after" alt="Después">
 
         <div class="ba-before-wrapper" id="ba-before-wrapper">
           <img src="${beforeImg}" class="ba-before" alt="Antes">
         </div>
+
+        <div class="ba-divider" id="ba-divider"></div>
 
         <input
           type="range"
@@ -77,11 +79,19 @@ function bindGallery() {
 function bindBeforeAfter() {
   const slider = document.getElementById("ba-slider");
   const wrapper = document.getElementById("ba-before-wrapper");
+  const divider = document.getElementById("ba-divider");
 
-  if(!slider || !wrapper) return;
+  if(!slider || !wrapper || !divider) return;
+
+  function updateSlider(value) {
+    wrapper.style.width = value + "%";
+    divider.style.left = value + "%";
+  }
+
+  updateSlider(slider.value);
 
   slider.addEventListener("input", (e) => {
-    wrapper.style.width = e.target.value + "%";
+    updateSlider(e.target.value);
   });
 }
 
