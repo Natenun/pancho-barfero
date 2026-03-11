@@ -166,7 +166,7 @@ const animalsData = {
       beforeImg: "img/animalitos/fraser-antes.jpeg",
       afterImg: "img/animalitos/fraser-ahora.jpeg",
       gallery: [
-        "img/animalitos/fraser-1.jpeg",
+        "img/animalitos/fraser-1.png",
         "img/animalitos/fraser-2.jpeg",
         "img/animalitos/fraser-3.jpeg"
       ],
