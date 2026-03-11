@@ -141,12 +141,12 @@ const animalsData = {
       birthday: "2024-10-01",
       status: "En tratamiento",
       category: "resguardo",
-      beforeImg: "img/animalitos/sira-antes.png",
-      afterImg: "img/animalitos/sira-ahora.png",
+      beforeImg: "img/animalitos/sira-antes.jpeg",
+      afterImg: "img/animalitos/sira-ahora.jpeg",
       gallery: [
-        "img/animalitos/sira-1.png",
-        "img/animalitos/sira-2.png",
-        "img/animalitos/sira-3.png"
+        "img/animalitos/sira-1.jpeg",
+        "img/animalitos/sira-2.jpeg",
+        "img/animalitos/sira-3.jpeg"
       ],
       shortStory: "",
       story: "",
@@ -163,12 +163,12 @@ const animalsData = {
       birthday: "2024-10-01",
       status: "En tratamiento",
       category: "resguardo",
-      beforeImg: "img/animalitos/fraser-antes.png",
-      afterImg: "img/animalitos/fraser-ahora.png",
+      beforeImg: "img/animalitos/fraser-antes.jpeg",
+      afterImg: "img/animalitos/fraser-ahora.jpeg",
       gallery: [
-        "img/animalitos/fraser-1.png",
-        "img/animalitos/fraser-2.png",
-        "img/animalitos/fraser-3.png"
+        "img/animalitos/fraser-1.jpeg",
+        "img/animalitos/fraser-2.jpeg",
+        "img/animalitos/fraser-3.jpeg"
       ],
       shortStory: "",
       story: "",
