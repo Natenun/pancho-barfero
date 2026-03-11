@@ -23,7 +23,40 @@ Esa noche se le permitió dormir en una casita que había en el lugar para que n
 Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza para intentar salvarlo. Desde ese momento comenzó una lucha muy grande por su vida. Durante su recuperación han aparecido personas que han sido verdaderos ángeles para él, como la veterinaria Pau y Liz, quien se convirtió en su madrina y ha ayudado a costear tratamientos y medicamentos. También muchas personas en TikTok han apoyado con donaciones para poder continuar con sus estudios y cuidados.`,
   before: "",
   diagnosis: "",
-  carePlan: "",
+  carePlan: `
+<p>Locki actualmente sigue un plan de cuidado intensivo que incluye:</p>
+
+<strong>Alimentación especial</strong>
+<ul>
+<li>Pechuga de pollo</li>
+<li>Huevos</li>
+<li>Dieta preparada para apoyar su recuperación</li>
+</ul>
+
+<strong>Suplementos y apoyo nutricional</strong>
+<ul>
+<li>Vitaminas</li>
+<li>Omega 3</li>
+<li>Cardo mariano para apoyar el hígado</li>
+<li>Otros suplementos para fortalecer su organismo</li>
+</ul>
+
+<strong>Cuidados médicos</strong>
+<ul>
+<li>Estudios constantes</li>
+<li>Ultrasonidos</li>
+<li>Placas</li>
+<li>Monitoreo veterinario</li>
+</ul>
+
+<strong>Cuidados diarios</strong>
+<ul>
+<li>Mantenerlo abrigado (usa una chamarrita porque perdió mucho pelo)</li>
+<li>Espacios tranquilos para descansar</li>
+<li>Sol para ayudar a su recuperación</li>
+<li>Atención y acompañamiento constante</li>
+</ul>
+`,
   today: `A pesar de todo lo que su cuerpo enfrenta, Locki sigue luchando. Hay días más difíciles que otros, pero también ha mostrado momentos de esperanza: ha recuperado un poco de energía, a veces vuelve a caminar, incluso corre pequeños tramos y busca el sol para descansar. Su recuperación no es lineal, pero su voluntad de vivir es muy fuerte. Locki se ha convertido en un recordatorio de lo mucho que un animal puede luchar cuando alguien decide no rendirse con él.`,
   helpMessage: "Puedes ayudar donando para sus estudios y tratamientos, compartiendo su historia, siguiendo su proceso de recuperación o apoyando los lives que se hacen para recaudar fondos.",
   whatsappText: "Hola Paty, quiero ayudar a Locki"
