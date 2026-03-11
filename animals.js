@@ -59,12 +59,18 @@ const animalsData = {
         "img/animalitos/locki-5.jpeg"
       ],
       shortStory: "",
-      story: "",
+      story: "Locki llegó una noche muy fría de diciembre a un estacionamiento de CrossFit. Nadie sabía de dónde venía ni cuánto tiempo llevaba sobreviviendo en la calle. Estaba extremadamente delgado, con heridas en el cuerpo, muy débil y con mucha dificultad para respirar.
+Esa noche se le permitió dormir en una casita que había en el lugar para que no pasara frío. Al día siguiente fue evidente que su estado de salud era muy delicado. Existía la sospecha de que pudiera tener moquillo, lo que habría significado que probablemente tendrían que dormirlo para evitar más sufrimiento.
+Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza para intentar salvarlo. Desde ese momento comenzó una lucha muy grande por su vida. Durante su recuperación han aparecido personas que han sido verdaderos ángeles para él, como la veterinaria Pau y Liz, quien se convirtió en su madrina y ha ayudado a costear tratamientos y medicamentos. También muchas personas en TikTok han apoyado con donaciones para poder continuar con sus estudios y cuidados.",
       before: "",
       diagnosis: "",
       carePlan: "",
-      today: "",
-      helpMessage: "",
+      today: "A pesar de todo lo que su cuerpo enfrenta, Locki sigue luchando.
+            Hay días más difíciles que otros, pero también ha mostrado momentos de esperanza:
+            ha recuperado un poco de energía, a veces vuelve a caminar, incluso corre pequeños tramos y busca el sol para descansar.
+            Su recuperación no es lineal, pero su voluntad de vivir es muy fuerte.
+            Locki se ha convertido en un recordatorio de lo mucho que un animal puede luchar cuando alguien decide no rendirse con él.",
+      helpMessage: " •	Donando para sus estudios y tratamientos 	•	Compartiendo su historia	•	Siguiendo su proceso de recuperación	•	Apoyando los lives que se hacen para recaudar fondos",
       whatsappText: "Hola Paty, quiero ayudar a Locki"
     }
   ],
