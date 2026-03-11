@@ -62,27 +62,69 @@ Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza 
   whatsappText: "Hola Paty, quiero ayudar a Locki"
 },
     {
-      slug: "pelu",
-      name: "Pelu",
-      birthday: "2025-06-10",
-      status: "Disponible",
-      category: "busca hogar",
-      beforeImg: "img/animalitos/pelu-antes.png",
-      afterImg: "img/animalitos/pelu-ahora.png",
-      gallery: [
-        "img/animalitos/pelu-1.png",
-        "img/animalitos/pelu-2.png",
-        "img/animalitos/pelu-3.png"
-      ],
-      shortStory: "Llegó de visita al gym muy mugroso y muy peludo y parecia tener hambre.",
-      story: "Pelu es un cachorro que llegaba al gimnasio por caricias, comida y resguardo, al parecer si tenia dueños pero siempre llegaba con nosotros, hace unos dias 8 de marzo llego muy lastimado al parecer lo atropellaron quizo dormir todo el dia, al siguiente dia lo llevamos a operar y hoy esta en recuperacion y en adopcion para que tenga una vida mejor",
-      before: "Poco cuidado de sus dueños anteriores.",
-      diagnosis: "Necesita amor.",
-      carePlan: "una familia que lo quiera, lo alimente y apapache.",
-      today: "Hoy esta en recuperacion de su accidente pero si puede viajar.",
-      helpMessage: "Puedes ayudar con alimento, donación, compartiendo su historia o adoptandolo.",
-      whatsappText: "Hola Paty, quiero ayudar a Pelu"
-    },
+  slug: "pelu",
+  name: "Pelu",
+  birthday: "2024-03-11",
+  status: "Disponible",
+  category: "busca hogar",
+  beforeImg: "img/animalitos/pelu-antes.png",
+  afterImg: "img/animalitos/pelu-ahora.png",
+  gallery: [
+    "img/animalitos/pelu-1.png",
+    "img/animalitos/pelu-2.png",
+    "img/animalitos/pelu-3.png"
+  ],
+
+  shortStory: "Pelu comenzó a visitarnos todos los días en el trabajo. Poco a poco se fue quedando cada vez más tiempo, hasta que un día llegó lastimado y decidió que ese lugar sería su refugio.",
+
+  story: `Todo comenzó cuando Pelu empezó a aparecer todos los días en el lugar donde trabajo. Llegaba tranquilo, convivía un rato con nosotros y luego regresaba a la calle. Con el tiempo descubrimos que su nombre era Lobo, pero nosotros comenzamos a llamarlo Pelu… y curiosamente respondía muy bien a ese nombre.
+
+Desde los primeros días noté que tenía muchísimo pelo lleno de nudos y plastas, señal de que probablemente no lo cepillaban. Cada vez que llegaba empezaba a cepillarlo un poco. Con el cepillado diario fui quitándole esas bolas de pelo para que se sintiera mejor y también para que se viera más bonito.
+
+Mi intención no era quedármelo. Pensaba que si alguien lo veía limpio y cuidado tal vez querría adoptarlo y darle un hogar.
+
+Con el paso del tiempo Pelu comenzó a quedarse cada vez más cerca del negocio. Por las noches incluso llegaba a tocar la reja, como pidiendo entrar. Había noches muy frías y verlo afuera me preocupaba, así que empecé a guardarlo por las noches junto con otra perrita que tengo en resguardo, Frida.`,
+
+  before: `Un día vimos una escena preocupante: Pelu se estaba peleando con otro perro cerca de la casa donde viven sus dueños. Algunas personas intentaban separarlos echándoles agua, pero sus dueños no lo metieron a su casa.
+
+Después de eso empezamos a verlo cada vez más tiempo en la calle, expuesto a peleas y peligros.`,
+
+  diagnosis: `Un día llegó muy diferente. Caminaba con mucha dificultad y apenas logró entrar al pasillo. Se tiró en el piso y todo su cuerpo estaba temblando.
+
+Al revisarlo notamos que una de sus patas delanteras estaba muy inflamada. La doctora nos indicó comenzar tratamiento con antibióticos porque parecía que se había peleado, tenía una infección o incluso pudo haber sido atropellado.`,
+
+  carePlan: `
+<p>Después de algunos días de tratamiento, Pelu comenzó a mejorar.</p>
+
+<p>Con el tiempo también se presentó la oportunidad de esterilizarlo para proteger su salud y evitar que siguiera viviendo los riesgos de la calle.</p>
+
+<p>Actualmente Pelu necesita:</p>
+
+<ul>
+<li>Un hogar estable y seguro</li>
+<li>Alimentación adecuada</li>
+<li>Seguimiento veterinario básico</li>
+<li>Mucho cariño y convivencia con su familia</li>
+</ul>
+`,
+
+  today: `Después de recuperarse del accidente, Pelu decidió quedarse en el lugar donde dormía Frida. Cuando intentábamos sacarlo, él prefería quedarse.
+
+Hasta el día de hoy no ha habido respuesta de sus dueños ni señales de que lo estén buscando.
+
+Pelu es un perro noble, cariñoso y muy agradecido. Ahora está listo para encontrar una familia que realmente lo cuide y le dé una vida segura, lejos de las calles donde tantas veces resultó lastimado.`,
+
+  helpMessage: `
+<ul>
+<li>Adoptándolo y dándole un hogar definitivo</li>
+<li>Donando alimento</li>
+<li>Ayudando a cubrir su esterilización</li>
+<li>Compartiendo su historia para que encuentre familia</li>
+</ul>
+`,
+
+  whatsappText: "Hola Paty, quiero ayudar a Pelu"
+},
     {
       slug: "panchote",
       name: "Panchote",
