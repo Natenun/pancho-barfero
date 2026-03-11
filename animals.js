@@ -25,18 +25,41 @@ const animalsData = {
   ],
 
   rescue: [    
+     {
+      slug: "pancho",
+      name: "Pancho",
+      birthday: "2020-01-01",
+      status: "Historia fundadora",
+      category: "adoptado",
+      beforeImg: "img/animalitos/pancho-antes.png",
+      afterImg: "img/animalitos/pancho-ahora.png",
+      gallery: [
+        "img/animalitos/pancho-1.png",
+        "img/animalitos/pancho-2.png",
+        "img/animalitos/pancho-3.png"
+      ],
+      shortStory: "Pancho fue el inicio de todo.",
+      story: "Pancho apareció lastimado en el estacionamiento de Cross248. Su historia inspiró Pancho Barfero.",
+      before: "Llegó muy lastimado después de ser atacado por otros perros.",
+      diagnosis: "Necesitaba atención, alimentación y recuperación.",
+      carePlan: "Su proceso llevó a Patricia a estudiar nutrición para pequeñas especies.",
+      today: "Hoy Pancho está sano y su historia es el corazón del proyecto.",
+      helpMessage: "Puedes ayudar a otros animalitos que hoy necesitan lo mismo que Pancho necesitó.",
+      whatsappText: "Hola Paty, quiero conocer más sobre Pancho"
+    },
     {
       slug: "prit",
       name: "Prit",
       birthday: "2025-01-15",
-      status: "En resguardo",
+      status: "adoptado",
       category: "resguardo",
       beforeImg: "img/animalitos/prit-antes.jpeg",
       afterImg: "img/animalitos/prit-ahora.png",
       gallery: [
         "img/animalitos/prit-1.jpeg",
         "img/animalitos/prit-2.jpeg",
-        "img/animalitos/prit-3.jpeg"
+        "img/animalitos/prit-3.jpeg",
+        "img/animalitos/prit-4.jpeg"
       ],
       shortStory: "Literalmente cayó del cielo y hoy forma parte de mi manada.",
       story: "Prit cayó de una barda, estaba lastimada y mal de un ojo. Poco a poco se recuperó.",
@@ -51,8 +74,8 @@ const animalsData = {
       slug: "nawi",
       name: "Ñawi",
       birthday: "2025-06-10",
-      status: "Disponible",
-      category: "busca hogar",
+      status: "adoptado",
+      category: "resguardo",
       beforeImg: "img/animalitos/nawi-antes.png",
       afterImg: "img/animalitos/nawi-ahora.png",
       gallery: [
@@ -96,11 +119,54 @@ const animalsData = {
 
   adopted: [
     {
+      slug: "bolt",
+      name: "Bolt",
+      birthday: "2020-01-01",
+      status: "Adoptado",
+      category: "En resguardo",
+      beforeImg: "img/animalitos/bolt-antes.png",
+      afterImg: "img/animalitos/bolt-ahora.png",
+      gallery: [
+        "img/animalitos/bolt-1.png",
+        "img/animalitos/bolt-2.png"
+    
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: ".",
+      carePlan: "",
+      today: "",
+      helpMessage: "",
+      whatsappText: "Hola Paty, quiero conocer más sobre Bolt"
+    },
+    {
+      slug: "lua",
+      name: "Lua",
+      birthday: "2020-01-01",
+      status: "Adoptado",
+      category: "En resguardo",
+      beforeImg: "img/animalitos/lua-antes.png",
+      afterImg: "img/animalitos/lua-ahora.png",
+      gallery: [
+        "img/animalitos/lua-1.png",
+        "img/animalitos/lua-2.png"        
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: ".",
+      carePlan: "",
+      today: "",
+      helpMessage: "",
+      whatsappText: "Hola Paty, quiero conocer más sobre lua"
+    },
+    {
       slug: "pancho",
       name: "Pancho",
       birthday: "2020-01-01",
       status: "Historia fundadora",
-      category: "adoptado",
+      category: "En resguardo",
       beforeImg: "img/animalitos/pancho-antes.png",
       afterImg: "img/animalitos/pancho-ahora.png",
       gallery: [
