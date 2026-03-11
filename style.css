@@ -649,72 +649,172 @@ a {
   background:#c92f3b;
 }
 
-
-.section-head-stack {
-  align-items: flex-start;
-  gap: 6px;
+.extra-page {
+  padding-top: 8px;
 }
 
-.help-cards {
-  display: grid;
-  gap: 12px;
-  margin-top: 12px;
+.back-btn {
+  display: inline-block;
+  margin-bottom: 12px;
+  color: #0f172a;
+  font-weight: 700;
 }
 
-.help-card {
-  background: #ffffff;
-  border: 1px solid rgba(15, 23, 42, 0.08);
-  border-radius: 24px;
-  padding: 18px;
-  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+.page-title {
+  margin: 6px 0 0;
+  font-size: 28px;
+  line-height: 1.15;
 }
 
-.help-card-featured {
-  background: linear-gradient(180deg, #fff7f4 0%, #fff0ea 100%);
-  border-color: rgba(255, 122, 89, 0.28);
-}
-
-.help-card-icon {
-  width: 42px;
-  height: 42px;
-  border-radius: 14px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: #fff3e7;
-  font-size: 20px;
-  margin-bottom: 10px;
-}
-
-.help-card h3 {
-  margin: 0;
-  font-size: 18px;
-  line-height: 1.25;
-}
-
-.help-card p {
-  margin: 10px 0 14px;
+.number-list {
+  list-style: decimal;
 }
 
 .inline-badges {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  list-style: none;
+  gap: 10px;
+  margin: 14px 0 0;
   padding: 0;
-  margin: 0 0 14px;
+  list-style: none;
 }
 
 .inline-badges li {
-  background: rgba(255, 122, 89, 0.10);
-  color: #9a3412;
+  padding: 10px 12px;
   border-radius: 999px;
-  padding: 7px 10px;
-  font-size: 12px;
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid #e2e8f0;
+  color: #334155;
+  font-size: 13px;
   font-weight: 700;
 }
 
-.btn-pink {
-  background: #ec4899;
+.tutorial-carousel {
+  position: relative;
+  margin-top: 16px;
+}
+
+.carousel-viewport {
+  overflow: hidden;
+}
+
+.tutorial-step {
+  display: none;
+  gap: 14px;
+}
+
+.tutorial-step.active {
+  display: block;
+}
+
+.tutorial-media {
+  border-radius: 24px;
+  overflow: hidden;
+  background: #e2e8f0;
+  box-shadow: 0 12px 28px rgba(15, 23, 42, 0.08);
+}
+
+.tutorial-media img {
+  width: 100%;
+  display: block;
+  aspect-ratio: 9 / 16;
+  object-fit: cover;
+}
+
+.tutorial-copy {
+  padding-top: 14px;
+}
+
+.step-badge {
+  display: inline-block;
+  padding: 7px 10px;
+  border-radius: 999px;
+  background: #0f172a;
   color: white;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.tutorial-copy h3 {
+  margin: 10px 0 0;
+  font-size: 22px;
+}
+
+.tutorial-copy p {
+  margin: 10px 0 0;
+}
+
+.carousel-btn {
+  position: absolute;
+  top: 36%;
+  transform: translateY(-50%);
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 999px;
+  background: rgba(15, 23, 42, 0.78);
+  color: white;
+  font-size: 28px;
+  line-height: 1;
+  cursor: pointer;
+  z-index: 2;
+}
+
+.carousel-btn.prev {
+  left: 10px;
+}
+
+.carousel-btn.next {
+  right: 10px;
+}
+
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-top: 16px;
+}
+
+.carousel-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: none;
+  background: #cbd5e1;
+  cursor: pointer;
+}
+
+.carousel-dot.active {
+  width: 26px;
+  background: #ff7a59;
+}
+
+@media (min-width: 640px) {
+  .tutorial-step.active {
+    display: grid;
+    grid-template-columns: minmax(0, 210px) minmax(0, 1fr);
+    align-items: center;
+    gap: 18px;
+  }
+
+  .tutorial-copy {
+    padding-top: 0;
+  }
+
+  .tutorial-media img {
+    aspect-ratio: 4 / 7;
+  }
+}
+
+@media (max-width: 420px) {
+  .carousel-btn {
+    width: 38px;
+    height: 38px;
+    top: 34%;
+  }
+
+  .tutorial-copy h3 {
+    font-size: 20px;
+  }
 }
