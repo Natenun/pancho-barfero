@@ -137,7 +137,6 @@ Pelu es un perro noble, cariñoso y muy agradecido. Ahora está listo para encon
     "img/animalitos/panchote-1.jpeg",
     "img/animalitos/panchote-2.jpeg",
     "img/animalitos/panchote-3.jpeg",
-    "img/animalitos/panchote-4.jpeg",
     "img/animalitos/panchote-5.jpeg",
     "img/animalitos/panchote-6.jpeg",
     "img/animalitos/panchote-7.jpeg",
