@@ -10,8 +10,8 @@ const animalsData = {
   afterImg: "img/animalitos/locki-ahora.jpeg",
   gallery: [
     "img/animalitos/locki-1.jpeg",
-    "img/animalitos/locki-2.jpeg",
-    "img/animalitos/locki-3.jpeg",
+    "img/animalitos/locki-2.png",
+    "img/animalitos/locki-3.png",
     "img/animalitos/locki-4.jpeg",
     "img/animalitos/locki-5.jpeg"
   ],
