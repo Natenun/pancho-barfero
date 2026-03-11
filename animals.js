@@ -68,9 +68,9 @@ Afortunadamente la prueba salió negativa, lo que abrió una pequeña esperanza 
   status: "Disponible",
   category: "busca hogar",
   beforeImg: "img/animalitos/pelu-antes.jpeg",
-  afterImg: "img/animalitos/pelu-ahora.jpeg",
+  afterImg: "img/animalitos/pelu-ahora.png",
   gallery: [
-    "img/animalitos/pelu-1.jpeg",
+    "img/animalitos/pelu-1.png",
     "img/animalitos/pelu-2.jpeg",
     "img/animalitos/pelu-3.jpeg"
   ],
