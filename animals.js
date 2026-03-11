@@ -52,12 +52,12 @@ const animalsData = {
       birthday: "2020-01-01",
       status: "Historia fundadora",
       category: "adoptado",
-      beforeImg: "img/animalitos/pancho-antes.png",
-      afterImg: "img/animalitos/pancho-ahora.png",
+      beforeImg: "img/animalitos/pancho-antes.jpeg",
+      afterImg: "img/animalitos/pancho-ahora.jpeg",
       gallery: [
-        "img/animalitos/pancho-1.png",
-        "img/animalitos/pancho-2.png",
-        "img/animalitos/pancho-3.png"
+        "img/animalitos/pancho-1.jpeg",
+        "img/animalitos/pancho-2.jpeg",
+        "img/animalitos/pancho-3.jpeg"
       ],
       shortStory: "Pancho fue el inicio de todo.",
       story: "Pancho apareció lastimado en el estacionamiento de Cross248. Su historia inspiró Pancho Barfero.",
