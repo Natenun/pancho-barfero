@@ -42,6 +42,30 @@ const animalsData = {
       today: "",
       helpMessage: "",
       whatsappText: "Hola Paty, quiero ayudar a Panchote"
+    },
+    {
+      slug: "locki",
+      name: "Locki",
+      birthday: "2017-01-01",
+      status: "Disponible",
+      category: "busca hogar",
+      beforeImg: "img/animalitos/locki-antes.jpeg",
+      afterImg: "img/animalitos/locki-ahora.jpeg",
+      gallery: [
+        "img/animalitos/locki-1.jpeg",
+        "img/animalitos/locki-2.jpeg",
+        "img/animalitos/locki-3.jpeg",
+        "img/animalitos/locki-4.jpeg",
+        "img/animalitos/locki-5.jpeg"
+      ],
+      shortStory: "",
+      story: "",
+      before: "",
+      diagnosis: "",
+      carePlan: "",
+      today: "",
+      helpMessage: "",
+      whatsappText: "Hola Paty, quiero ayudar a Locki"
     }
   ],
 
