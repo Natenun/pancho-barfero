@@ -10,9 +10,9 @@ const animalsData = {
       beforeImg: "img/animalitos/nawi-antes.png",
       afterImg: "img/animalitos/nawi-ahora.png",
       gallery: [
-        "img/animalitos/Ñawi-1.png",
-        "img/animalitos/Ñawi-2.png",
-        "img/animalitos/Ñawi-3.png"
+        "img/animalitos/nawi-1.png",
+        "img/animalitos/nawi-2.png",
+        "img/animalitos/nawi-3.png"
       ],
       shortStory: "Llegó con bajo peso y necesitó apoyo para alimento.",
       story: "Ñawi apareció débil y con signos de descuido. Fue recibido y comenzó su proceso de recuperación.",
