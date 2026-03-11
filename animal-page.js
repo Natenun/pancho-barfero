@@ -51,12 +51,13 @@ function renderBeforeAfter(beforeImg, afterImg) {
   `;
 }
 
-function renderSection(title, text){
+function renderSection(title, text, options = {}){
   if(!text) return "";
+  const body = options.html ? `<div class="section-rich-text">${text}</div>` : `<p>${text}</p>`;
   return `
     <section class="story-section">
       <h3>${title}</h3>
-      <p>${text}</p>
+      ${body}
     </section>
   `;
 }
@@ -118,7 +119,7 @@ function render(){
     ${renderSection("Historia", animal.story)}
     ${renderSection("Antes", animal.before)}
     ${renderSection("Diagnóstico / situación", animal.diagnosis)}
-    ${renderSection("Plan de cuidado", animal.carePlan)}
+    ${renderSection("Plan de cuidado", animal.carePlan, { html: true })}
     ${renderSection("Cómo va hoy", animal.today)}
     ${renderSection("Cómo ayudar", animal.helpMessage)}
 

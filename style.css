@@ -648,3 +648,73 @@ a {
 .donate-btn:hover{
   background:#c92f3b;
 }
+
+
+.section-head-stack {
+  align-items: flex-start;
+  gap: 6px;
+}
+
+.help-cards {
+  display: grid;
+  gap: 12px;
+  margin-top: 12px;
+}
+
+.help-card {
+  background: #ffffff;
+  border: 1px solid rgba(15, 23, 42, 0.08);
+  border-radius: 24px;
+  padding: 18px;
+  box-shadow: 0 8px 22px rgba(15, 23, 42, 0.06);
+}
+
+.help-card-featured {
+  background: linear-gradient(180deg, #fff7f4 0%, #fff0ea 100%);
+  border-color: rgba(255, 122, 89, 0.28);
+}
+
+.help-card-icon {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #fff3e7;
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.help-card h3 {
+  margin: 0;
+  font-size: 18px;
+  line-height: 1.25;
+}
+
+.help-card p {
+  margin: 10px 0 14px;
+}
+
+.inline-badges {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  list-style: none;
+  padding: 0;
+  margin: 0 0 14px;
+}
+
+.inline-badges li {
+  background: rgba(255, 122, 89, 0.10);
+  color: #9a3412;
+  border-radius: 999px;
+  padding: 7px 10px;
+  font-size: 12px;
+  font-weight: 700;
+}
+
+.btn-pink {
+  background: #ec4899;
+  color: white;
+}
