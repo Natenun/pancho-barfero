@@ -7,7 +7,7 @@ function renderGallery(images){
 
   return `
     <div class="animal-gallery">
-      <img id="main-img" src="${images[0]}" class="main-img" />
+      <img id="main-img" src="${images[0]}" class="main-img" alt="Foto principal" />
       <div class="thumbs">
         ${images.map((img, i) => `
           <img
@@ -112,7 +112,7 @@ function render(){
     ${renderSection("Cómo va hoy", animal.today)}
     ${renderSection("Cómo ayudar", animal.helpMessage)}
 
-    <a class="help-btn" href="https://wa.me/?text=${encodeURIComponent(animal.whatsappText)}" target="_blank">
+    <a class="help-btn" href="https://wa.me/5218135049027?text=${encodeURIComponent(animal.whatsappText)}" target="_blank" rel="noopener noreferrer">
       Ayudar a ${animal.name}
     </a>
   `;
