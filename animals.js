@@ -1,4 +1,3 @@
-
 const animalsData = {
   adoption: [
     {
@@ -23,18 +22,110 @@ const animalsData = {
       helpMessage: "Puedes ayudar con alimento, donación o compartiendo su historia.",
       whatsappText: "Hola Patricia, quiero ayudar a Ñawi"
     }
+  ],
+
+  rescue: [
+    {
+      slug: "zack",
+      name: "Zack",
+      birthday: "2024-10-01",
+      status: "En tratamiento",
+      category: "resguardo",
+      beforeImg: "img/animalitos/zack-antes.png",
+      afterImg: "img/animalitos/zack-ahora.png",
+      gallery: [
+        "img/animalitos/zack-1.png",
+        "img/animalitos/zack-2.png",
+        "img/animalitos/zack-3.png"
+      ],
+      shortStory: "Llegó con sobrepeso y con problemas renales.",
+      story: "Zack llegó necesitando seguimiento, alimentación adecuada y observación constante.",
+      before: "Tenía sobrepeso y señales de problemas renales.",
+      diagnosis: "Se detectó necesidad de control nutricional y monitoreo.",
+      carePlan: "Se ajustó alimentación, seguimiento y apoyo general.",
+      today: "Hoy sigue en tratamiento y forma parte de la manada.",
+      helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+      whatsappText: "Hola Patricia, quiero ayudar a Zack"
+    },
+
+    {
+      slug: "prit",
+      name: "Prit",
+      birthday: "2025-01-15",
+      status: "En resguardo",
+      category: "resguardo",
+      beforeImg: "img/animalitos/prit-antes.png",
+      afterImg: "img/animalitos/prit-ahora.png",
+      gallery: [
+        "img/animalitos/prit-1.png",
+        "img/animalitos/prit-2.png",
+        "img/animalitos/prit-3.png"
+      ],
+      shortStory: "Literalmente cayó del cielo y hoy forma parte de mi manada.",
+      story: "Prit cayó de una barda, estaba lastimada y mal de un ojo. Poco a poco se recuperó.",
+      before: "Llegó lastimada y con problemas en un ojo.",
+      diagnosis: "Necesitaba observación, recuperación y estabilidad.",
+      carePlan: "Atención, alimento y seguimiento.",
+      today: "Hoy está muy sana y forma parte de mi manada.",
+      helpMessage: "Puedes ayudar compartiendo su historia o apoyando su cuidado.",
+      whatsappText: "Hola Patricia, quiero conocer la historia de Prit"
+    }
+  ],
+
+  adopted: [
+    {
+      slug: "pancho",
+      name: "Pancho",
+      birthday: "2020-01-01",
+      status: "Historia fundadora",
+      category: "adoptado",
+      beforeImg: "img/animalitos/pancho-antes.png",
+      afterImg: "img/animalitos/pancho-ahora.png",
+      gallery: [
+        "img/animalitos/pancho-1.png",
+        "img/animalitos/pancho-2.png",
+        "img/animalitos/pancho-3.png"
+      ],
+      shortStory: "Pancho fue el inicio de todo.",
+      story: "Pancho apareció lastimado en el estacionamiento de Cross248. Su historia inspiró Pancho Barfero.",
+      before: "Llegó muy lastimado después de ser atacado por otros perros.",
+      diagnosis: "Necesitaba atención, alimentación y recuperación.",
+      carePlan: "Su proceso llevó a Patricia a estudiar nutrición para pequeñas especies.",
+      today: "Hoy Pancho está sano y su historia es el corazón del proyecto.",
+      helpMessage: "Puedes ayudar a otros animalitos que hoy necesitan lo mismo que Pancho necesitó.",
+      whatsappText: "Hola Patricia, quiero conocer más sobre Pancho"
+    }
   ]
 };
 
-const allAnimals = [...animalsData.adoption];
+const allAnimals = [
+  ...animalsData.adoption,
+  ...animalsData.rescue,
+  ...animalsData.adopted
+];
 
 function getAgeText(birthday) {
   if (!birthday) return "Edad no disponible";
-  const birth = new Date(birthday);
+
+  const birth = new Date(birthday + "T00:00:00");
   const now = new Date();
+
   let months = (now.getFullYear() - birth.getFullYear()) * 12;
   months += now.getMonth() - birth.getMonth();
-  if (months < 12) return months + " meses";
+
+  if (now.getDate() < birth.getDate()) {
+    months -= 1;
+  }
+
+  if (months < 1) return "Menos de 1 mes";
+  if (months < 12) return `${months} ${months === 1 ? "mes" : "meses"}`;
+
   const years = Math.floor(months / 12);
-  return years + " años";
+  const remainingMonths = months % 12;
+
+  if (remainingMonths === 0) {
+    return `${years} ${years === 1 ? "año" : "años"}`;
+  }
+
+  return `${years} ${years === 1 ? "año" : "años"} y ${remainingMonths} ${remainingMonths === 1 ? "mes" : "meses"}`;
 }
