@@ -1,6 +1,53 @@
 const animalsData = {
   adoption: [
     {
+      slug: "pelu",
+      name: "Pelu",
+      birthday: "2025-06-10",
+      status: "Disponible",
+      category: "busca hogar",
+      beforeImg: "img/animalitos/pelu-antes.png",
+      afterImg: "img/animalitos/pelu-ahora.png",
+      gallery: [
+        "img/animalitos/pelu-1.png",
+        "img/animalitos/pelu-2.png",
+        "img/animalitos/pelu-3.png"
+      ],
+      shortStory: "Llegó de visita al gym muy mugroso y muy peludo y parecia tener hambre.",
+      story: "Pelu es un cachorro que llegaba al gimnasio por caricias, comida y resguardo, al parecer si tenia dueños pero siempre llegaba con nosotros, hace unos dias 8 de marzo llego muy lastimado al parecer lo atropellaron quizo dormir todo el dia, al siguiente dia lo llevamos a operar y hoy esta en recuperacion y en adopcion para que tenga una vida mejor",
+      before: "Poco cuidado de sus dueños anteriores.",
+      diagnosis: "Necesita amor.",
+      carePlan: "una familia que lo quiera, lo alimente y apapache.",
+      today: "Hoy esta en recuperacion de su accidente pero si puede viajar.",
+      helpMessage: "Puedes ayudar con alimento, donación, compartiendo su historia o adoptandolo.",
+      whatsappText: "Hola Paty, quiero ayudar a Pelu"
+    }
+  ],
+
+  rescue: [    
+    {
+      slug: "prit",
+      name: "Prit",
+      birthday: "2025-01-15",
+      status: "En resguardo",
+      category: "resguardo",
+      beforeImg: "img/animalitos/prit-antes.jpeg",
+      afterImg: "img/animalitos/prit-ahora.png",
+      gallery: [
+        "img/animalitos/prit-1.jpeg",
+        "img/animalitos/prit-2.jpeg",
+        "img/animalitos/prit-3.jpeg"
+      ],
+      shortStory: "Literalmente cayó del cielo y hoy forma parte de mi manada.",
+      story: "Prit cayó de una barda, estaba lastimada y mal de un ojo. Poco a poco se recuperó.",
+      before: "Llegó lastimada y con problemas en un ojo.",
+      diagnosis: "Necesitaba observación, recuperación y estabilidad.",
+      carePlan: "Atención, alimento y seguimiento.",
+      today: "Hoy está muy sana y forma parte de mi manada.",
+      helpMessage: "Puedes ayudar compartiendo su historia o apoyando su cuidado.",
+      whatsappText: "Hola Paty, quiero conocer la historia de Prit"
+    },
+    {
       slug: "nawi",
       name: "Ñawi",
       birthday: "2025-06-10",
@@ -20,11 +67,8 @@ const animalsData = {
       carePlan: "Se inició un plan de alimentación natural, monitoreo constante y cuidado emocional.",
       today: "Hoy Ñawi tiene más energía, juega y se acerca con confianza a las personas.",
       helpMessage: "Puedes ayudar con alimento, donación o compartiendo su historia.",
-      whatsappText: "Hola Patricia, quiero ayudar a Ñawi"
-    }
-  ],
-
-  rescue: [
+      whatsappText: "Hola Paty, quiero ayudar a Ñawi"
+    },
     {
       slug: "zack",
       name: "Zack",
@@ -45,31 +89,9 @@ const animalsData = {
       carePlan: "Se ajustó alimentación, seguimiento y apoyo general.",
       today: "Hoy sigue en tratamiento y forma parte de la manada.",
       helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
-      whatsappText: "Hola Patricia, quiero ayudar a Zack"
-    },
-
-    {
-      slug: "prit",
-      name: "Prit",
-      birthday: "2025-01-15",
-      status: "En resguardo",
-      category: "resguardo",
-      beforeImg: "img/animalitos/prit-antes.png",
-      afterImg: "img/animalitos/prit-ahora.png",
-      gallery: [
-        "img/animalitos/prit-1.png",
-        "img/animalitos/prit-2.png",
-        "img/animalitos/prit-3.png"
-      ],
-      shortStory: "Literalmente cayó del cielo y hoy forma parte de mi manada.",
-      story: "Prit cayó de una barda, estaba lastimada y mal de un ojo. Poco a poco se recuperó.",
-      before: "Llegó lastimada y con problemas en un ojo.",
-      diagnosis: "Necesitaba observación, recuperación y estabilidad.",
-      carePlan: "Atención, alimento y seguimiento.",
-      today: "Hoy está muy sana y forma parte de mi manada.",
-      helpMessage: "Puedes ayudar compartiendo su historia o apoyando su cuidado.",
-      whatsappText: "Hola Patricia, quiero conocer la historia de Prit"
+      whatsappText: "Hola Paty, quiero ayudar a Zack"
     }
+    
   ],
 
   adopted: [
@@ -93,7 +115,7 @@ const animalsData = {
       carePlan: "Su proceso llevó a Patricia a estudiar nutrición para pequeñas especies.",
       today: "Hoy Pancho está sano y su historia es el corazón del proyecto.",
       helpMessage: "Puedes ayudar a otros animalitos que hoy necesitan lo mismo que Pancho necesitó.",
-      whatsappText: "Hola Patricia, quiero conocer más sobre Pancho"
+      whatsappText: "Hola Paty, quiero conocer más sobre Pancho"
     }
   ]
 };
