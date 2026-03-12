@@ -605,6 +605,50 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre alfa"
+},
+   {
+slug: "arab",
+name: "Arab",
+birthday: "2024-10-01",
+status: "Adoptado",
+category: "En resguardo",
+beforeImg: "img/animalitos/arab-antes.jpeg",
+afterImg: "img/animalitos/arab-ahora.jpeg",
+gallery: [
+"img/animalitos/arab-1.png",
+"img/animalitos/arab-2.jpeg",
+"img/animalitos/arab-3.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero conocer más sobre arab"
+},
+   {
+slug: "bertita",
+name: "Bertita",
+birthday: "2024-10-01",
+status: "Adoptado",
+category: "En resguardo",
+beforeImg: "img/animalitos/bertita-antes.jpeg",
+afterImg: "img/animalitos/bertita-ahora.jpeg",
+gallery: [
+"img/animalitos/bertita-1.png",
+"img/animalitos/bertita-2.jpeg",
+"img/animalitos/bertita-3.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero conocer más sobre bertita"
 }
   
 ]
