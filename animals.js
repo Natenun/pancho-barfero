@@ -382,29 +382,7 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero ayudar a frida"
-},
-  {
-slug: "kika",
-name: "Kika",
-birthday: "2024-10-01",
-status: "En memoria",
-category: "resguardo",
-beforeImg: "img/animalitos/kika-1.jpg",
-afterImg: "img/animalitos/kika-ahora.jpeg",
-gallery: [
-"img/animalitos/kika-1.jpg",
-],
-shortStory: "",
-story: "",
-before: "",
-diagnosis: ".",
-carePlan: ".",
-today: ".",
-helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
-whatsappText: "Hola Paty, quiero saber mas sobre kika"
 }
-
-
 ],
 
 adopted: [
@@ -748,6 +726,26 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero saber mas sobre kenny"
+},
+  {
+slug: "kika",
+name: "Kika",
+birthday: "2024-10-01",
+status: "En memoria",
+category: "resguardo",
+beforeImg: "img/animalitos/kika-1.jpg",
+afterImg: "img/animalitos/kika-ahora.jpeg",
+gallery: [
+"img/animalitos/kika-1.jpg",
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero saber mas sobre kika"
 }
 ]
 };
