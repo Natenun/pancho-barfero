@@ -659,6 +659,26 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre Peluchona"
+},{
+slug: "zazi",
+name: "Zazi",
+birthday: "2024-10-01",
+status: "Adoptado",
+category: "En resguardo",
+beforeImg: "img/animalitos/zazi-antes.jpeg",
+afterImg: "img/animalitos/zazi-ahora.jpeg",
+gallery: [
+"img/animalitos/zazi-1.jpeg",
+"img/animalitos/zazi-2.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero conocer más sobre Zazi"
 }
   
 ]
