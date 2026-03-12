@@ -639,6 +639,26 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre bertita"
+},{
+slug: "peluchona",
+name: "Peluchona",
+birthday: "2024-10-01",
+status: "Adoptado",
+category: "En resguardo",
+beforeImg: "img/animalitos/peluchona-antes.jpeg",
+afterImg: "img/animalitos/peluchona-ahora.jpeg",
+gallery: [
+"img/animalitos/peluchona-1.jpeg",
+"img/animalitos/peluchona-2.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero conocer más sobre Peluchona"
 }
   
 ]
