@@ -221,7 +221,7 @@ diagnosis: ".",
 carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
-whatsappText: "Hola Paty, quiero conocer más sobre niebla"
+whatsappText: "Hola Paty, quiero conocer más sobre Gaia"
 }
 ],
 
@@ -382,6 +382,54 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero ayudar a frida"
+},
+  {
+slug: "kenny",
+name: "Kenny",
+birthday: "2024-10-01",
+status: "En memoria",
+category: "resguardo",
+beforeImg: "img/animalitos/kenny-antes.jpeg",
+afterImg: "img/animalitos/kenny-ahora.jpeg",
+gallery: [
+"img/animalitos/kenny-1.jpeg",
+"img/animalitos/kenny-2.jpeg",
+"img/animalitos/kenny-3.jpeg",
+"img/animalitos/kenny-4.jpeg",
+"img/animalitos/kenny-5.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero saber mas sobre kenny"
+},
+  {
+slug: "kika",
+name: "Kika",
+birthday: "2024-10-01",
+status: "En memoria",
+category: "resguardo",
+beforeImg: "img/animalitos/kenny-antes.jpeg",
+afterImg: "img/animalitos/kenny-ahora.jpeg",
+gallery: [
+"img/animalitos/kika-1.jpeg",
+"img/animalitos/kika-2.jpeg",
+"img/animalitos/kika-3.jpeg",
+"img/animalitos/kika-4.jpeg",
+"img/animalitos/kika-5.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, quiero saber mas sobre kika"
 }
 
 
