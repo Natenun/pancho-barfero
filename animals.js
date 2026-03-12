@@ -579,9 +579,9 @@ category: "adoptado",
 beforeImg: "img/animalitos/alfa-antes.jpeg",
 afterImg: "img/animalitos/alfa-ahora.jpeg",
 gallery: [
-"img/animalitos/alfa-1.jpeg",
-"img/animalitos/alfa-2.jpeg",
-"img/animalitos/alfa-3.jpeg"
+"img/animalitos/alfa-1.png",
+"img/animalitos/alfa-2.png"
+
 ],
 shortStory: "",
 story: "",
