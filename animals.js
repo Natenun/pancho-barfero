@@ -499,29 +499,6 @@ helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre niebla"
 },
    {
-slug: "niebla",
-name: "Niebla",
-birthday: "2024-10-01",
-status: "Adoptado",
-category: "En resguardo",
-beforeImg: "img/animalitos/niebla-antes.jpeg",
-afterImg: "img/animalitos/niebla-ahora.jpeg",
-gallery: [
-"img/animalitos/niebla-1.jpeg",
-"img/animalitos/niebla-2.jpeg",
-"img/animalitos/niebla-3.jpeg",
-"img/animalitos/niebla-4.jpeg"
-],
-shortStory: "",
-story: "",
-before: "",
-diagnosis: ".",
-carePlan: ".",
-today: ".",
-helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
-whatsappText: "Hola Paty, quiero conocer más sobre niebla"
-},
-   {
 slug: "honey",
 name: "Honey",
 birthday: "2024-10-01",
