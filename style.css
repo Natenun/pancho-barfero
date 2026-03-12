@@ -376,6 +376,20 @@ a {
   background: #ede9fe;
   color: #6d28d9;
 }
+.tag-red{
+background:#e63946;
+color:white;
+}
+
+.tag-purple{
+background:#7b2cbf;
+color:white;
+}
+
+.tag-blue{
+background:#457b9d;
+color:white;
+}
 
 .mini-label {
   margin: 0;
