@@ -1,7 +1,10 @@
 function getTagClass(status) {
   if (status === "Disponible") return "tag tag-green";
   if (status === "En tratamiento") return "tag tag-amber";
-  if (status === "Adoptado" || status === "Historia fundadora") return "tag tag-sky";
+  if (status === "En resguardo") return "tag tag-purple";
+  if (status === "Urgente") return "tag tag-red";
+  if (status === "Adoptado") return "tag tag-sky";
+  if (status === "Historia fundadora") return "tag tag-blue";
   return "tag tag-neutral";
 }
 
