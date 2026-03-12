@@ -299,12 +299,10 @@ name: "Zack",
 birthday: "2024-10-01",
 status: "En tratamiento",
 category: "resguardo",
-beforeImg: "img/animalitos/zack-antes.png",
+beforeImg: "img/animalitos/zack-1.png",
 afterImg: "img/animalitos/zack-ahora.png",
 gallery: [
-"img/animalitos/zack-1.png",
-"img/animalitos/zack-2.png",
-"img/animalitos/zack-3.png"
+"img/animalitos/zack-1.png"
 ],
 shortStory: "Llegó con sobrepeso y con problemas renales.",
 story: "Zack llegó necesitando seguimiento, alimentación adecuada y observación constante.",
