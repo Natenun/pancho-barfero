@@ -17,6 +17,10 @@ function createAnimalCard(animal, mode = "help") {
     ? animal.gallery[0]
     : (animal.afterImg || animal.beforeImg || "");
 
+  const statusLabel = animal.status === "En memoria"
+    ? "🕊️ En memoria"
+    : animal.status;
+
   article.innerHTML = `
     <img src="${imageSrc}" alt="${animal.name}" />
     <div class="pet-body">
@@ -25,7 +29,7 @@ function createAnimalCard(animal, mode = "help") {
           <h3>${animal.name}</h3>
           <p>${getAgeText(animal.birthday)}</p>
         </div>
-        <span class="${getTagClass(animal.status)}">${animal.status}</span>
+        <span class="${getTagClass(animal.status)}">${statusLabel}</span>
       </div>
       <p>${animal.shortStory || ""}</p>
       <div class="pet-actions">
@@ -44,6 +48,7 @@ function renderAnimals() {
   const adoptionList = document.getElementById("adoption-list");
   const rescueList = document.getElementById("rescue-list");
   const adoptedList = document.getElementById("adopted-list");
+  const memoryList = document.getElementById("memory-list");
 
   if (adoptionList) {
     adoptionList.innerHTML = "";
@@ -65,13 +70,22 @@ function renderAnimals() {
       adoptedList.appendChild(createAnimalCard(animal, "contact"));
     });
   }
+
+  if (memoryList && animalsData.memory) {
+    memoryList.innerHTML = "";
+    animalsData.memory.forEach(animal => {
+      memoryList.appendChild(createAnimalCard(animal, "contact"));
+    });
+  }
 }
 
 function renderStats() {
   const adoption = animalsData.adoption.length;
   const rescue = animalsData.rescue.length;
   const adopted = animalsData.adopted.length;
-  const total = adoption + rescue + adopted;
+  const memory = animalsData.memory ? animalsData.memory.length : 0;
+
+  const total = adoption + rescue + adopted + memory;
 
   const adoptionEl = document.getElementById("stat-adoption");
   const rescueEl = document.getElementById("stat-rescue");
