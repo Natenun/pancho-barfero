@@ -727,7 +727,11 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre Zazi"
-},{
+}
+  
+],
+   memory: [
+ {
 slug: "cajeta",
 name: "Cajeta",
 birthday: "2024-10-01",
@@ -752,7 +756,6 @@ today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, siento mucho lo de Cajeta"
 }
-  
 ]
 };
 
