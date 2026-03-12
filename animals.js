@@ -368,9 +368,11 @@ category: "resguardo",
 beforeImg: "img/animalitos/frida-antes.jpeg",
 afterImg: "img/animalitos/frida-ahora.jpeg",
 gallery: [
-"img/animalitos/frida-1.png",
+"img/animalitos/frida-1.jpeg",
 "img/animalitos/frida-2.jpeg",
-"img/animalitos/frida-3.jpeg"
+"img/animalitos/frida-3.jpeg",
+"img/animalitos/frida-4.jpeg",
+"img/animalitos/frida-5.jpeg"
 ],
 shortStory: "",
 story: "",
@@ -507,7 +509,8 @@ afterImg: "img/animalitos/niebla-ahora.jpeg",
 gallery: [
 "img/animalitos/niebla-1.jpeg",
 "img/animalitos/niebla-2.jpeg",
-"img/animalitos/niebla-3.jpeg"
+"img/animalitos/niebla-3.jpeg",
+"img/animalitos/niebla-4.jpeg"
 ],
 shortStory: "",
 story: "",
@@ -524,12 +527,12 @@ name: "Honey",
 birthday: "2024-10-01",
 status: "Adoptado",
 category: "En resguardo",
-beforeImg: "img/animalitos/niebla-antes.jpeg",
-afterImg: "img/animalitos/niebla-ahora.jpeg",
+beforeImg: "img/animalitos/honey-antes.jpeg",
+afterImg: "img/animalitos/honey-ahora.jpeg",
 gallery: [
-"img/animalitos/niebla-1.jpeg",
-"img/animalitos/niebla-2.jpeg",
-"img/animalitos/niebla-3.jpeg"
+"img/animalitos/honey-1.jpeg",
+"img/animalitos/honey-2.jpeg",
+"img/animalitos/honey-3.jpeg"
 ],
 shortStory: "",
 story: "",
@@ -558,7 +561,8 @@ gallery: [
 "img/animalitos/cross-7.jpeg",
 "img/animalitos/cross-8.jpeg",
 "img/animalitos/cross-9.jpeg",
-"img/animalitos/cross-10.jpeg"
+"img/animalitos/cross-10.jpeg",
+"img/animalitos/cross-11.jpeg"
 ],
 shortStory: "",
 story: "",
@@ -624,7 +628,9 @@ afterImg: "img/animalitos/arab-ahora.jpeg",
 gallery: [
 "img/animalitos/arab-1.jpeg",
 "img/animalitos/arab-2.jpeg",
-"img/animalitos/arab-3.jpeg"
+"img/animalitos/arab-3.jpeg",
+"img/animalitos/arab-4.jpeg",
+"img/animalitos/arab-5.jpeg"
 ],
 shortStory: "",
 story: "",
