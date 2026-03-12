@@ -210,7 +210,7 @@ category: "busca hogar",
 beforeImg: "img/animalitos/gaia-antes.jpeg",
 afterImg: "img/animalitos/gaia-ahora.jpeg",
 gallery: [
-"img/animalitos/gaia-1.png",
+"img/animalitos/gaia-1.jpeg",
 "img/animalitos/gaia-2.jpeg",
 "img/animalitos/gaia-3.jpeg"
 ],
@@ -439,7 +439,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/bunna-antes.jpeg",
 afterImg: "img/animalitos/bunna-ahora.jpeg",
 gallery: [
-"img/animalitos/bunna-1.png",
+"img/animalitos/bunna-1.jpeg",
 "img/animalitos/bunna-2.jpeg",
 "img/animalitos/bunna-3.jpeg"
 ],
@@ -461,7 +461,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/saly-antes.jpeg",
 afterImg: "img/animalitos/saly-ahora.jpeg",
 gallery: [
-"img/animalitos/saly-1.png",
+"img/animalitos/saly-1.jpeg",
 "img/animalitos/saly-2.jpeg",
 "img/animalitos/saly-3.jpeg"
 ],
@@ -483,7 +483,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/niebla-antes.jpeg",
 afterImg: "img/animalitos/niebla-ahora.jpeg",
 gallery: [
-"img/animalitos/niebla-1.png",
+"img/animalitos/niebla-1.jpeg",
 "img/animalitos/niebla-2.jpeg",
 "img/animalitos/niebla-3.jpeg"
 ],
@@ -505,7 +505,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/niebla-antes.jpeg",
 afterImg: "img/animalitos/niebla-ahora.jpeg",
 gallery: [
-"img/animalitos/niebla-1.png",
+"img/animalitos/niebla-1.jpeg",
 "img/animalitos/niebla-2.jpeg",
 "img/animalitos/niebla-3.jpeg"
 ],
@@ -527,7 +527,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/niebla-antes.jpeg",
 afterImg: "img/animalitos/niebla-ahora.jpeg",
 gallery: [
-"img/animalitos/niebla-1.png",
+"img/animalitos/niebla-1.jpeg",
 "img/animalitos/niebla-2.jpeg",
 "img/animalitos/niebla-3.jpeg"
 ],
@@ -549,9 +549,16 @@ category: "En resguardo",
 beforeImg: "img/animalitos/cross-antes.jpeg",
 afterImg: "img/animalitos/cross-ahora.jpeg",
 gallery: [
-"img/animalitos/cross-1.png",
+"img/animalitos/cross-1.jpeg",
 "img/animalitos/cross-2.jpeg",
-"img/animalitos/cross-3.jpeg"
+"img/animalitos/cross-3.jpeg",
+"img/animalitos/cross-4.jpeg",
+"img/animalitos/cross-5.jpeg",
+"img/animalitos/cross-6.jpeg",
+"img/animalitos/cross-7.jpeg",
+"img/animalitos/cross-8.jpeg",
+"img/animalitos/cross-9.jpeg",
+"img/animalitos/cross-10.jpeg"
 ],
 shortStory: "",
 story: "",
@@ -571,7 +578,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/satelite-antes.jpeg",
 afterImg: "img/animalitos/satelite-ahora.jpeg",
 gallery: [
-"img/animalitos/satelite-1.png",
+"img/animalitos/satelite-1.jpeg",
 "img/animalitos/satelite-2.jpeg",
 "img/animalitos/satelite-3.jpeg"
 ],
@@ -593,7 +600,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/alfa-antes.jpeg",
 afterImg: "img/animalitos/alfa-ahora.jpeg",
 gallery: [
-"img/animalitos/alfa-1.png",
+"img/animalitos/alfa-1.jpeg",
 "img/animalitos/alfa-2.jpeg",
 "img/animalitos/alfa-3.jpeg"
 ],
@@ -615,7 +622,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/arab-antes.jpeg",
 afterImg: "img/animalitos/arab-ahora.jpeg",
 gallery: [
-"img/animalitos/arab-1.png",
+"img/animalitos/arab-1.jpeg",
 "img/animalitos/arab-2.jpeg",
 "img/animalitos/arab-3.jpeg"
 ],
@@ -637,7 +644,7 @@ category: "En resguardo",
 beforeImg: "img/animalitos/bertita-antes.jpeg",
 afterImg: "img/animalitos/bertita-ahora.jpeg",
 gallery: [
-"img/animalitos/bertita-1.png",
+"img/animalitos/bertita-1.jpeg",
 "img/animalitos/bertita-2.jpeg",
 "img/animalitos/bertita-3.jpeg"
 ],
