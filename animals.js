@@ -737,7 +737,11 @@ beforeImg: "img/animalitos/cajeta-antes.jpeg",
 afterImg: "img/animalitos/cajeta-ahora.jpeg",
 gallery: [
 "img/animalitos/cajeta-1.jpeg",
-"img/animalitos/cajeta-2.jpeg"
+"img/animalitos/cajeta-2.jpeg",
+"img/animalitos/cajeta-3.jpeg",
+"img/animalitos/cajeta-4.jpeg",
+"img/animalitos/cajeta-5.jpeg",
+"img/animalitos/cajeta-6.jpeg",
 ],
 shortStory: "",
 story: "",
