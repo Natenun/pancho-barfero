@@ -576,7 +576,7 @@ birthday: "2024-10-01",
 status: "Adoptado",
 category: "adoptado",
 beforeImg: "img/animalitos/alfa-antes.jpeg",
-afterImg: "img/animalitos/alfa-ahora.jpeg",
+afterImg: "img/animalitos/alfa-ahora.png",
 gallery: [
 "img/animalitos/alfa-1.png",
 "img/animalitos/alfa-2.png"
