@@ -727,6 +727,26 @@ carePlan: ".",
 today: ".",
 helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
 whatsappText: "Hola Paty, quiero conocer más sobre Zazi"
+},{
+slug: "cajeta",
+name: "Cajeta",
+birthday: "2024-10-01",
+status: "En memoria",
+category: "adoptado",
+beforeImg: "img/animalitos/cajeta-antes.jpeg",
+afterImg: "img/animalitos/cajeta-ahora.jpeg",
+gallery: [
+"img/animalitos/cajeta-1.jpeg",
+"img/animalitos/cajeta-2.jpeg"
+],
+shortStory: "",
+story: "",
+before: "",
+diagnosis: ".",
+carePlan: ".",
+today: ".",
+helpMessage: "Puedes ayudar con alimento, estudios o compartiendo su historia.",
+whatsappText: "Hola Paty, siento mucho lo de Cajeta"
 }
   
 ]
