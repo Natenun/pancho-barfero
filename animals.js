@@ -558,8 +558,7 @@ beforeImg: "img/animalitos/satelite-antes.jpeg",
 afterImg: "img/animalitos/satelite-ahora.jpeg",
 gallery: [
 "img/animalitos/satelite-1.jpeg",
-"img/animalitos/satelite-2.jpeg",
-"img/animalitos/satelite-3.jpeg"
+"img/animalitos/satelite-2.jpeg"
 ],
 shortStory: "",
 story: "",
